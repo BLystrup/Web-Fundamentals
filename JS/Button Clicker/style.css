@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Start of Navbar */
+nav {
+    background-color: rgb(204,204,204);
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    font-size: xx-large;
+    font-weight: lighter;
+}
+input {
+    border: 2px solid black;
+    width: 300px;
+    height: 30px;
+}
+nav button {
+    border: 2px solid black;
+    background-color: rgb(43,120,228);
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 3px 3px 0px black;
+}
+/* End of Navbar */
+
+.page {
+    width: 73%;
+    margin: 0px auto;
+    display: flex;
+}
+
+/* Start of Main Section */
+.answer {
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px 20px;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+.word {
+    height: 150px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.answer p {
+    margin-left: 40px;
+}
+.answer button {
+    border: 2px solid black;
+    background-color: rgb(254,217,102);
+    padding: 5px 20px;
+    box-shadow: 3px 3px 0px black;
+}
+/* End Main Section */
+
+/* Start of Right Side Section */
+.right-sec {
+    height: 130px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin: 20px 0px 0px 20px;
+    flex: 1;
+}
+.right-sec button {
+    background-color: rgb(146,197,124);
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 5px 20px;
+    box-shadow: 3px 3px 0px black;
+}

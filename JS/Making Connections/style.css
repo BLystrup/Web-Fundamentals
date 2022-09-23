@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+/* Nav Bar Start */
+nav {
+    background-color: black;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    display: Flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    width: 40%;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.navbar .profile {
+    color: rgb(252,252,252);
+}
+
+.navbar h5 {
+    color: rgb(184,184,184);
+}
+
+nav input {
+    background-color: rgb(20,163,184);
+    color: rgb(250,252,252);
+    height: 25px;
+    width: 75px;
+    margin-right: 150px;
+}
+/* End of Nav Bar */
+
+/* Start of Info Section */
+.info {
+    height: 600px;
+    margin: 40px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+main, .rightbar {
+    height: 600px;
+}
+
+main {
+    flex: 2;
+    margin-right: 40px;
+}
+
+/* Start of Self Section */
+.self {
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(20,163,184);
+}
+
+.user img{
+    position: fixed;
+    top: 170px;
+    margin-left: 20px;
+    width: 75px;
+}
+
+.info-sec {
+    height: 275px;
+    padding: 50px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: solid 2px rgb(204,204,204);
+    border-bottom: solid 2px rgb(204,204,204);
+    border-left: solid 2px rgb(204,204,204);;
+    background-color: rgb(255,255,255);
+}
+/* End of Self Section */
+
+h1, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.icon {
+    height: 15px;
+}
+
+a {
+    color: rgb(20,163,184);
+}
+
+.education {
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+h4 {
+    background-color: rgb(51,51,51);
+    color: rgb(250,252,252);
+    padding: 10px 20px;
+    font-weight: lighter;
+}
+
+.background {
+    height: 100px;
+    margin: 15px 0px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Start of Right Bar */
+.rightbar {
+    flex: 1;
+}
+
+.requests {
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.requests img, .connections img {
+    height: 50px;
+}
+
+.new-friends {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.connections {
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    height: 340px;
+}
+
+.connections .people {
+    margin: 15px 20px
+}
+a {
+    margin-left: 25px;
+    color: rgb(64,111,163);
+}

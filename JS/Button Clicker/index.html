@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Dojonary</h1>
+        <form action="search">
+            <input type="text" name="search" placeholder="Search">
+        </form>
+        <button onclick="logout(this)">Login</button>
+    </nav>
+    <div class="page">
+        <!-- Main Section -->
+        <main>
+            <div class="answer">
+                <div class="word">
+                    <h2>ninja</h2>
+                    <h4><i>noun</i></h4>
+                    <h5>Plural: <i>ninjas</i></h5>
+                    <button onclick="myFunction()">13 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A practitione skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="answer">
+                <div class="word">
+                    <h2>ninja</h2>
+                    <h4><i>noun</i></h4>
+                    <h5>Plural: <i>ninjas</i></h5>
+                    <button onclick="myFunction()">37 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </main>
+        <!-- End Main Section -->
+        <!-- Right Side Section -->
+        <div class="right-sec">
+            <p>Dojonary is defined by YOU</p>
+            <button onclick="hide(this)">Add Definition</button>
+        </div>
+        <!-- End Right Side Section -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

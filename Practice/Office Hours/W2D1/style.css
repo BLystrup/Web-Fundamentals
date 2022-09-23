@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+/* Main Page Styles */
+
+.container {
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border: solid 1px black;
+    background-color: green;
+}
+
+/* Nav bar */
+.navbar {
+    padding: 20px 20px;
+    border: solid 1px black;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main content */
+.main-content{
+    height: 100%;
+    display: flex;
+    gap: 250px;
+}
+
+/* Columns */
+.column {
+    border: solid 1px black;
+    background-color: blue;
+    height: 300px;
+}
+
+/* Links for left column */
+a.content-links{
+    color: black;
+    text-decoration: none;
+    color: red;
+}
+
+/* Boxes BONUS */
+/* .box{
+    color: aliceblue;
+    background-color:rebeccapurple;
+    width: 125px;
+    height: 125px;
+} */
+

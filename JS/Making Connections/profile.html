@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Start of Nav Bar -->
+        <nav>
+            <div class="navbar">
+                <h2 class="profile">Profile</h2>
+                <h5>Home</h5>
+                <h5 class="profile">My Profile</h5>
+                <h5>Find Connections</h5>
+            </div>
+            <form action="#">
+                <input type="submit" value="Sign Out">
+            </form>
+        </nav>
+        <!-- End of Nav Bar -->
+        <!-- Start of Info Section -->
+        <div class="info">
+            <main>
+                <div class="self">
+                    <div class="header"></div>
+                    <div class="user">
+                        <img src="./images/jane-m.jpg" alt="Jane M">
+                    </div>
+                    <div class="info-sec">
+                        <h1 id="Jane">Jane Doe</h1>
+                        <h3><img src="./icons-2/map-marker.png" alt="map marker" class="icon"> Seattle</h3>
+                        <p>Developer | Engineer | Problem Solver <br>
+                            Master of shadows and the Internet!
+                        </p>
+                        <div>
+                            <img src="./icons-2/gear.png" alt="gear image" class="icon">
+                            <a href="#" onclick="changeName()">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <h4>Education</h4>
+                    <div class="background">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <p>Dec 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, Mern, and C#...</p>
+                    </div>
+                </div>
+            </main>
+            <div class="rightbar">
+                <div class="requests">
+                    <h4>Connection Requests</h4>
+                    <div class="new-friends" id="request-1">
+                        <div class="people">
+                            <img src="./images/todd-s.jpg" alt="Todd E">
+                            <p>Todd E</p>
+                        </div>
+                        <div>
+                            <img src="./icons-2/accept-circle.png" alt="checkmark" onclick="hide()">
+                            <img src="./icons-2/close-circle.png" alt="x" onclick="hide()">
+                        </div>
+                    </div>
+                    <div class="new-friends" id="request-2">
+                        <div class="people">
+                            <img src="./images/phil-s.jpg" alt="Todd K">
+                            <p>Todd K</p>
+                        </div>
+                        <div>
+                            <img src="./icons-2/accept-circle.png" alt="checkmark" onclick="hideAgain()">
+                            <img src="./icons-2/close-circle.png" alt="x" onclick="hideAgain()">
+                        </div>
+                    </div>
+                </div>
+                <div class="connections">
+                    <h4>Your Connections</h4>
+                    <div>
+                        <div class="people">
+                            <img src="./images/adrien-s.jpg" alt="Adrien S">
+                            <p>Adrien D</p>
+                        </div>
+                        <div class="people">
+                            <img src="./images/anne-s.jpg" alt="Anne J">
+                            <p>Anne J</p>
+                        </div>
+                        <div class="people">
+                            <img src="./images/alayne-s.jpg" alt="Alayne T">
+                            <p>Alayne T</p>
+                        </div>
+                        <div class="people">
+                            <img src="./images/arry-s.jpg" alt="Arry Y">
+                            <p>Arry Y</p>
+                        </div>
+                    </div>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
